@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="info">
+			<div class="wrapper">
+				<ul>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Ближайший магазин</a></li>
+					<li><a href="">Оплата и доставка</a></li>
+				</ul>
+				<input type="text" placeholder="Поиск товара">
+			</div>
+		</div>
+		<div class="logo">
+			<div class="wrapper">
+				<div>
+					<a href=""><img src="images/logo.png" alt=""></a>
+					<div>
+						<h1>Семь знаков</h1>
+						<p>Чай и кофе, от которых невозможно отказаться</p>
+					</div>
+				</div>
+				<div class="table">
+					<div>
+						<img src="images/clock.png" alt="">
+						<p>Работаем с 9.00 до 18.00</p>
+					</div>
+					<div>
+						<img src="images/phone.png" alt="">
+						<div>
+							<p>+7 (026) 444 22 33</p>
+							<p>+7 (026) 444 22 33</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/car.png" alt="">
+						<p>Доставка по всей России</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<div class="wrapper">
+				<ul>
+					<li class="active"><a href="">Главная</a></li>
+					<li><a href="">Акции</a></li>
+					<li><a href="">Рецепты</a></li>
+					<li><a href="">Подарки</a></li>
+					<li><a href="">Благотворительность</a></li>
+					<li><a href="">Блог</a></li>
+					<li>
+						<a href="">Мои покупки</a>
+						<div>
+							<div>
+								<h4>В корзине 2 товара <span>на сумму 10 000 руб</span></h4>
+							</div>
+							<ul>
+								<li class="purchases">
+									<img src="images/purchases.png" alt="">
+									<div>
+										<h6>Чай Basilur букет ассорти 1,5г</h6>
+										<ul>
+											<li>143.55 р</li>
+											<li>1 шт.</li>
+											<li>143.55 р</li>
+										</ul>
+									</div>
+								</li>
+								<li class="purchases">
+									<img src="images/purchases.png" alt="">
+									<div>
+										<h6>Чай Basilur букет ассорти 1,5г</h6>
+										<ul>
+											<li>143.55 р</li>
+											<li>1 шт.</li>
+											<li>143.55 р</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<div><a href="">Перейти в корзину</a></div>
+							<button>оформить заказ</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div id="mobile_header">
+			<div class="wrapper">
+				<div id="normal_header">
+					<div>
+						<button id="menu"></button>
+						<button id="search"></button>
+					</div>
+					<a href=""><img src="images/logo.png" alt=""></a>
+					<div>
+						<h2>Семь знаков</h2>
+						<button id="purchases"></button>
+					</div>
+					<button id="show"></button>
+				</div>
+				<div id="button_drop">
+					<a href="">О нас</a>
+					<a href="">Ближайший магазин</a>
+					<a href="">Оплата и доставка</a>
+					<button id="default"></button>
+				</div>
+			</div>
+		</div>
+		<div id="hidden">
+			<div class="wrapper">
+				<ul>
+					<li><a href="">ГЛАВНАЯ</a></li>
+					<li><a href="">АКЦИИ</a></li>
+					<li><a href="">ИНТЕРНЕТ-МАГАЗИН</a></li>
+					<li><a href="">РЕЦЕПТЫ</a></li>
+					<li><a href="">ПОДАРКИ</a></li>
+					<li><a href="">БЛАГОТВОРИТЕЛЬНОСТЬ</a></li>
+					<li><a href="">БЛОГ</a></li>
+				</ul>
+				<ul>
+					<li><a href="">ЧАЙ</a></li>
+					<li><a href="">Каталог</a></li>
+					<li><a href="">Чай разных стран</a></li>
+					<li><a href="">Чайный гороскоп</a></li>
+					<li><a href="">Чайные напитки</a></li>
+					<li><a href="">Сахар</a></li>
+					<li><a href="">КОФЕ</a></li>
+					<li><a href="">Каталог</a></li>
+					<li><a href="">Кофе разных стран</a></li>
+					<li><a href="">ШОКОЛАД</a></li>
+					<li><a href="">АКСЕССУАРЫ</a></li>
+					<li><a href="">НАШИ КОНТАКТЫ</a></li>
+				</ul>
+				<button id="close_hidden"></button>
+			</div>
+		</div>
+	</header>
+
+	<div id="info">
+		<div class="wrapper">
+			<h1>"СЕМЬ ЗНАКОВ" — лучшие сорта чая и кофе</h1>
+			<p>Рады приветствовать вас в нашем интернет-магазине "7 знаков"</p>
+			<p>Лучшие сорта чая, кофе и шоколада, отобранные специально для наших клиентов, ждут вас!</p>
+			<div class="container">
+				<div>
+					<p>Чай</p>
+					<img src="images/tea.png" alt="">
+				</div>
+				<div>
+					<p>Кофе</p>
+					<img src="images/cofe.png" alt="">
+				</div>
+				<div>
+					<div>
+						<p>Чайные напитки</p>
+						<img src="images/fruittea.png" alt="">
+					</div>
+					<div>
+						<p>Аксессуары</p>
+						<img src="images/items.png" alt="">
+					</div>
+				</div>
+				<div>
+					<p>Шоколад</p>
+					<img src="images/chocolate.png" alt="">
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div id="reg">
+		<div class="wrapper">
+			<h4>Хотите быть в курсе наших новостей и первыми узнавать об акциях, скидках и подарках магазина "Семь знаков"?</h4>
+			<p>Подпишитесь на нашу рассылку + получите промокод на первую скидку 20%</p>
+			<div>
+				<input type="text" placeholder="Ваш email">
+				<button>Подписаться</button>	
+			</div>
+		</div>
+	</div>
+	<div id="social">
+		<div class="wrapper">
+			<ul>
+				<li><a href=""><i class="fab fa-youtube"></i></a></li>
+				<li><a href=""><i class="fab fa-vk"></i></a></li>
+				<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href=""><i class="fab fa-twitter"></i></a></li>
+				<li><a href=""><i class="fab fa-odnoklassniki"></i></a></li>
+				<li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+				<li><a href=""><i class="fab fa-yandex"></i></a></li>
+				<li><a href=""><i class="fas fa-at"></i></a></li>
+			</ul>
+			<div>
+				<img src="images/member.png" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus odit qui praesentium accusamus quos animi error similique quod possimus quae itaque, ipsam omnis sed! Tenetur quam rem, ex quidem similique eum expedita! Deleniti dolore minus, explicabo ipsa nostrum possimus libero, ipsum quia sit nihil amet laboriosam delectus rerum quasi assumenda.<span>Karen Jones. Директор</span></p>
+			</div>
+		</div>
+	</div>
+	<div id="seven">
+		<div class="wrapper">
+			<h3>Семь знаков</h3>
+			<div class="container">
+				<div>
+					<img src="images/garant.png" alt="">
+					<p>Гарантия качества</p>
+				</div>
+				<div>
+					<img src="images/assort.png" alt="">
+					<p>Больший ассортимент</p>
+				</div>
+				<div>
+					<img src="images/carclock.png" alt="">
+					<p>Быстрая доставка</p>
+				</div>
+				<div>
+					<img src="images/money.png" alt="">
+					<p>Доступные цены</p>
+				</div>
+				<div>
+					<img src="images/tasty.png" alt="">
+					<p>Превосходный вкус</p>
+				</div>
+				<div>
+					<img src="images/pay.png" alt="">
+					<p>Все формы оплаты</p>
+				</div>
+				<div>
+					<img src="images/heart.png" alt="">
+					<p>С любовью для вас</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="news">
+		<div class="wrapper">
+			<div class="container">
+				<div>
+					<h3>Последние новости</h3>
+					<div>
+						<h4>Название новости</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt dolorem harum tempora tenetur veritatis. Est perferendis dolorum culpa reiciendis adipisci doloremque officia reprehenderit, error nam tempore tempora, nesciunt, recusandae. Dolores repudiandae possimus necessitatibus, quam quisquam quibusdam, dolorum sunt labore voluptatem animi, autem mollitia. Hic possimus, nisi consequuntur architecto blanditiis.<span><a href="">Подробнее...</a></span></p>
+					</div>
+				</div>
+				<div>
+					<h3>Топ чайно-кофейных рецептов</h3>
+					<div>
+						<h4>Название новости</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum accusamus, temporibus sit omnis! Laudantium ducimus quos aperiam blanditiis id, dicta fugit illum repellendus cumque. Libero voluptas modi amet culpa aperiam esse, nam cum, harum quasi neque, illo molestias ipsam dolore inventore necessitatibus iusto voluptate reprehenderit sunt. Quae, in, accusamus!<span><a href="">Подробнее...</a></span></p>
+					</div>
+				</div>
+				<div>
+					<h3>Лучшее в блоге</h3>
+					<div>
+						<h4>Название новости</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quos sint nihil dolore expedita fugiat et labore odit quibusdam quae quaerat cum sunt doloremque rerum explicabo veniam, culpa necessitatibus nisi mollitia. Consequuntur ex debitis eum officiis unde dolor facilis reiciendis ut, distinctio sunt provident aperiam consequatur, recusandae explicabo at. Eius.<span><a href="">Подробнее...</a></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<div class="menu">
+				<div class="table">
+					<div>
+						<img src="images/clock.png" alt="">
+						<p>Работаем с 9.00 до 18.00</p>
+					</div>
+					<div>
+						<img src="images/phone.png" alt="">
+						<div>
+							<p>+7 (026) 444 22 33</p>
+							<p>+7 (026) 444 22 33</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/car.png" alt="">
+						<p>Доставка по всей России</p>
+					</div>
+				</div>
+				<ul>
+					<li><a href="">Ближайший магазин</a></li>
+					<li><a href="">Акции</a></li>
+					<li><a href="">Рецепты</a></li>
+					<li><a href="">Подарки</a></li>
+					<li><a href="">Благотворительность</a></li>
+					<li><a href="">Блог</a></li>
+				</ul>
+				<ul>
+					<li><a href="">ЧАЙ</a></li>
+					<li><a href="">Каталог</a></li>
+					<li><a href="">Чай разных стран</a></li>
+					<li><a href="">Чайные напитки</a></li>
+					<li><a href="">Чайный гороскоп</a></li>
+					<li><a href="">Сахар</a></li>
+					<li><a href="">АКСЕССУАРЫ</a></li>
+				</ul>
+				<ul>
+					<li><a href="">КОФЕ</a></li>
+					<li><a href="">Каталог</a></li>
+					<li><a href="">Кофе разных стран</a></li>
+					<li><a href="">ШОКОЛАД</a></li>
+					<li><a href="">Горячий шоколад</a></li>
+					<li><a href="">Шоколад ручной работы</a></li>
+					<li><a href="">ОПЛАТА И ДОСТАВКА</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">© Copyright 2016. All rights reserved</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
